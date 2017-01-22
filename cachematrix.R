@@ -1,4 +1,8 @@
-
+# makeCacheMatrix has the following steps:
+# 1. set the value of the matrix
+# 2. get the value of the matrix
+# 3. setinv the value of inverse of the matrix
+# 4. getinv the value of inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
